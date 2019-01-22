@@ -31,10 +31,10 @@ from gi.repository import Gio, GES, Gst
 
 if __name__ == "__main__":
 
-    locale.bindtextdomain('audiocutter', '@LOCALE_DIR@')
-    locale.textdomain('audiocutter')
-    gettext.bindtextdomain('audiocutter', '@LOCALE_DIR@')
-    gettext.textdomain('audiocutter')
+    locale.bindtextdomain('com.github.bilelmoussaoui.AudioCutter', '@LOCALE_DIR@')
+    locale.textdomain('com.github.bilelmoussaoui.AudioCutter')
+    gettext.bindtextdomain('com.github.bilelmoussaoui.AudioCutter', '@LOCALE_DIR@')
+    gettext.textdomain('com.github.bilelmoussaoui.AudioCutter')
 
     resource = Gio.resource_load(path.join('@DATA_DIR@',
                                            '@PROJECT_NAME@.gresource'))

@@ -6,6 +6,6 @@ Type=Application
 Exec=audio-cutter
 Terminal=false
 Categories=GNOME;GTK;Audio;
-Keywords=Gnome;GTK;Audio;Cutter;
+Keywords=Gnome;GTK;Audio;Cutter;AudioVideo
 Icon=com.github.bilelmoussaoui.AudioCutter
 StartupNotify=true
